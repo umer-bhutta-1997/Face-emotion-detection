@@ -1,0 +1,8 @@
+import cv2
+import face_recognition as fc
+
+
+image_1 = cv2.imread('image001.jpg')
+
+cv2.imshow('test', image_1)
+i am disturbed by the people in my mind constantly poking me in ways i cant not understand.
