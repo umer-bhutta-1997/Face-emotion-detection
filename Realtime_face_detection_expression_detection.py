@@ -15,9 +15,9 @@ from keras.models import model_from_json
 webcam_videos_stream = cv2.VideoCapture(0)
 
 ##face exprression model
-face_exp_model = model_from_json(open("file path", "r").read)
-face_exp_model.load_weights ("file location/path")
-emotion_label = ("angry", "disgust", "fear", "happy","sad", "surprise", "nrutral")
+face_exp_model = model_from_json(open("network.json", "r").read)
+face_exp_model.load_weights ("network.h5")
+emotion_label = ("angry", "disgust", "fear", "happy","sad", "surprise", "neutral")
 
 
 
